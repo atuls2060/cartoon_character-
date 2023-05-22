@@ -1,0 +1,12 @@
+.cartoon_card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+
+.cartoon_card>img {
+    width: 100%;
+}
+
+.cartoon_info {
+    padding: 10px;
+}
