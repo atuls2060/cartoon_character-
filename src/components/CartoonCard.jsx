@@ -1,12 +1,12 @@
 import React from 'react'
 import Style from "./cartoon.card.module.css"
 
-const CartoonCard = ({ Title, Poster }) => {
+const CartoonCard = ({ title, image }) => {
   return (
     <div className={Style.cartoon_card}>
-      <img src={Poster} alt={Title} />
+      <img src={image} alt={title} />
       <div className={Style.cartoon_info}>
-        <h3>{Title}</h3>
+        <h3>{title}</h3>
       </div>
     </div>
   )

@@ -13,7 +13,7 @@ const CartoonList = () => {
     const getCartoonList = async () => {
         setLoading(true)
         try {
-            const { data } = await axios.get("https://my-json-server.typicode.com/horizon-code-academy/fake-movies-api/movies")
+            const { data } = await axios.get("https://api.sampleapis.com/cartoons/cartoons2D")
             setCartoonData(data)
             setLoading(false)
         } catch (error) {
